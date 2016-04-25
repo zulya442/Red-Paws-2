@@ -1,0 +1,111 @@
+body{
+	font-size: 14px;
+  	font-family: 'Roboto Slab', serif;
+	margin:0;
+ }
+#header{
+	font-size: 30px;
+	height: 90px;
+    color:white;
+	background-color: #C22F3D;
+}
+#wrapper{
+	background-color: white;
+	min-height: 300px;
+}
+.container-fluid{
+	margin: 0;
+}
+
+/*Content */
+
+.logo{
+    margin-left: 2em;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  left:0;
+  background-color: #C22F3D;
+}
+.text-muted{
+	color:white;
+	text-align: left;
+	margin:1.5em;
+}
+.container{
+	margin-left:0;
+	padding:0;
+}
+.info{
+	/*margin-left:52em;*/
+	padding: 5em;
+	display: inline-block;
+}
+
+/*Navigation*/
+.logo-nav {
+	margin-top: 23px;
+	margin-right:41px;
+}
+.logo-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.logo-nav li {
+	font-size: 18px;
+	float: left;
+	display: inline;
+	margin-right: 6px;
+}
+
+.logo-nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    text-decoration: none;
+}
+/*Carousel
+----------------------------------*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+/* Change the link color on hover */
+.logo-nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+.logo-nav li a:hover {
+    float: right;
+	}
+
+#footer{
+	display: flex;
+	}
+}
+
+.logo-div{
+	display: inline-block;
+}
+.logo-text{
+	color: black;
+	display: inline-block;
+}
+.logo-nav, .logo-nav h2{
+	display: inline-block;
+	float: right;
+	margin-right: 41px;
+}	
